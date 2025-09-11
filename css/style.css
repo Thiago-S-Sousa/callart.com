@@ -796,7 +796,7 @@ html {
         }
 
         & a {
-          width: 100%;
+          width: 90%;
           padding: 2rem 5rem;
           font-size: 1.4rem;
           letter-spacing: 0.1rem;
@@ -883,7 +883,7 @@ html {
     }
 
     & .portfolio {
-      padding: 4rem 0;
+      padding: 4rem 0 6rem 0;
       gap: 4rem;
 
       & .portfolio-text {
@@ -907,7 +907,7 @@ html {
 
         & .portfolio-card {
           & .img {
-            height: 20rem;
+            height: 18rem;
 
             background: url(../img/barbara-medeiros-portfolio.png) top center /
               cover no-repeat;
@@ -946,7 +946,7 @@ html {
 
       & .about-container {
         flex-direction: column;
-        text-align: center;
+        /* text-align: center; */
         padding: 0 2.5rem;
 
         & .about-container-text {
@@ -987,10 +987,11 @@ html {
         & .contact-active-phone {
           display: block;
 
-          width: 100%;
+          width: 90%;
           padding: 2rem 5rem;
           font-size: 1.4rem;
           letter-spacing: 0.1rem;
+          text-align: center;
 
           & .icon-whatsapp {
             font-size: 1.6rem;
